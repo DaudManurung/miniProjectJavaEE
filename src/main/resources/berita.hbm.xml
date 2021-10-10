@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hibernate-mapping>
+	<class name="del.ac.id.POJOS.Berita" table="Berita">
+		<id name="id" column="id" type="int">
+			<generator class="increment"/>
+		</id>
+		<property name="judul">
+			<column name="judul"/>
+		</property>
+		<property name="isi">
+			<column name="isi"/>
+		</property>
+	</class>
+</hibernate-mapping>
